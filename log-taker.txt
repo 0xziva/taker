@@ -8017,3 +8017,16 @@
 7/5/2025 | 4:22:17 AM | INFO | Trying to check user miner status... 
 7/5/2025 | 4:22:18 AM | INFO | Last mining time: 7/4/2025, 4:27:27 AM
 7/5/2025 | 4:22:18 AM | WARN | Mining already started, next mining time is: 7/5/2025, 4:27:27 AM
+7/5/2025 | 8:20:59 AM | WARN |   === Sever is down bot might be slow - Just be patient ===
+7/5/2025 | 8:20:59 AM | INFO | Start process for wallet 0xcB9e6F1b6CC3e10d26D5973812271fA1edF5f723 
+7/5/2025 | 8:21:00 AM | INFO | Trying To Login for wallet: 0xcB9e6F1b6CC3e10d26D5973812271fA1edF5f723 
+7/5/2025 | 8:21:01 AM | INFO | Login successful... 
+7/5/2025 | 8:21:01 AM | INFO | Trying to check user info... 
+7/5/2025 | 8:21:02 AM | INFO | User ID: 103228286 | Twitter: @naziivaa | Total Points: 3024000 
+7/5/2025 | 8:21:02 AM | INFO | Trying to check user miner status... 
+7/5/2025 | 8:21:03 AM | INFO | Last mining time: 7/4/2025, 4:27:27 AM
+7/5/2025 | 8:21:03 AM | INFO | Trying to start Mining for wallet: 0xcB9e6F1b6CC3e10d26D5973812271fA1edF5f723 
+7/5/2025 | 8:21:03 AM | INFO | Mine response: {"code":200,"msg":"SUCCESS","data":"ok"}
+7/5/2025 | 8:21:03 AM | INFO | Trying to activate mining on-chain for wallet: 0xcB9e6F1b6CC3e10d26D5973812271fA1edF5f723 
+7/5/2025 | 8:21:09 AM | ERROR | Activate Mining Error: {"code":"UNKNOWN_ERROR","error":{"code":-32603,"message":"submit transaction to pool failed: Ok(ImmediatelyDropped)"},"payload":{"method":"eth_sendRawTransaction","params":["0x02f86c820465818480831e848082ed9594b3efe5105b835e5dd9d206445dbd66df24b912ab808402fb0c5ec080a04c581fd20c9aa533b9a89c0d7bb01fa696309eb8fa65014a80621ac0224f86cda01c81c7a39f6dccd3e83ece468c587deab14f9402a3dce39acf22bb5bf7ef3bb5"],"id":10,"jsonrpc":"2.0"},"shortMessage":"could not coalesce error"}
+7/5/2025 | 8:21:09 AM | ERROR | Wallet already start mine today or wallet dont have taker balance 
